@@ -1,0 +1,5 @@
+@extends('errors._layout')
+@section('code', '419')
+@section('icon', 'fa-hourglass-end')
+@section('title', 'หน้าหมดอายุ')
+@section('message', 'เปิดหน้านี้ทิ้งไว้นานเกินไป กรุณารีเฟรชหน้าแล้วลองใหม่อีกครั้ง')

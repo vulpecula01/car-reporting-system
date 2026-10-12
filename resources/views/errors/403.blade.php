@@ -1,0 +1,5 @@
+@extends('errors._layout')
+@section('code', '403')
+@section('icon', 'fa-lock')
+@section('title', 'ไม่มีสิทธิ์เข้าถึงหน้านี้')
+@section('message', $exception->getMessage() ?: 'บัญชีของคุณไม่มีสิทธิ์ใช้งานเมนูนี้')
